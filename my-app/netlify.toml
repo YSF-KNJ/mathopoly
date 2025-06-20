@@ -1,14 +1,3 @@
 [build]
   command = "npm run build"
-<<<<<<< HEAD
   publish = "build"
-=======
-
-[functions]
-  directory = ".netlify/functions"
-
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/render"
-  status = 200
->>>>>>> e903b40ae6adda92bbf949898dc48891d52bd705
